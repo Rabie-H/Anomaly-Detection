@@ -2,7 +2,7 @@ Run train.py to retrieve data from .xlsx file, prepare training data and train b
 
 - To perform anomaly detection, we use a pre-trained Resnet50 to perform feature extraction. 
   We apply a PCA on the extracted features and use the output to train a one class classification SVM and an IsolationForest.
-  The performances of the two models are compared, and the best algorithms is adopted.
+  The performances of the two models are compared, and the best algorithms is adopted. (I propose to deal with this task as a one class clasfication due to the lack of data. It is a more convenient way to deal with unbalanced data since I only have the data of one class that represents the circuits with anomaly)
   
 - The multiclass classifier is a CNN network.
 
