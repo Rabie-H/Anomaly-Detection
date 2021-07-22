@@ -1,0 +1,11 @@
+Untitled.ipynb
+CNN_aug_best_weights.h5
+Data
+anomaly_clf_train_daya
+anomaly_detection_train_data
+.ipynb_checkpoints
+.idea
+pca.pkl
+scaler.pkl
+test.txt
+best_clf.pkl
